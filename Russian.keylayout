@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.0.2.59 on 2016-03-24 at 00:24 (GMT+2)-->
+<!--Last edited by Ukelele version 3.0.2.59 on 2016-03-24 at 11:57 (GMT+2)-->
 <!--Created by Ukelele version 1.8 on 2008-10-24 at 13:25 (YEKST)-->
 <keyboard group="126" id="-20914" maxout="3" name="Ru / Ua + Typography">
 	<layouts>
@@ -391,7 +391,7 @@
 			<key code="2" output="°"/>
 			<key code="3" output="£"/>
 			<key code="4" output="₽"/>
-			<key code="5" output=""/>
+			<key code="5" output="₴"/>
 			<key code="6" output=""/>
 			<key code="7" output="×"/>
 			<key code="8" output="©"/>
