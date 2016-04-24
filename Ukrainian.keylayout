@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.0.2.59 on 2016-03-24 at 11:58 (GMT+2)-->
+<!--Last edited by Ukelele version 3.0.3.70 on 2016-04-24 at 17:19 (GMT+3)-->
 <!--Created by Ukelele version 1.8 on 2008-10-24 at 13:25 (YEKST)-->
-<keyboard group="126" id="-20914" maxout="3" name="Ua / Ru + Typography">
+<keyboard group="126" id="-20914" name="Ua / Ru + Typography" maxout="3">
 	<layouts>
 		<layout first="0" last="17" mapSet="16c" modifiers="f4"/>
 		<layout first="18" last="18" mapSet="994" modifiers="f4"/>
@@ -13,7 +13,7 @@
 		<layout first="200" last="201" mapSet="994" modifiers="f4"/>
 		<layout first="206" last="207" mapSet="994" modifiers="f4"/>
 	</layouts>
-	<modifierMap defaultIndex="7" id="f4">
+	<modifierMap id="f4" defaultIndex="7">
 		<keyMapSelect mapIndex="0">
 			<modifier keys=""/>
 			<modifier keys="command?"/>
@@ -50,24 +50,24 @@
 	</modifierMap>
 	<keyMapSet id="16c">
 		<keyMap index="0">
-			<key action="13" code="0"/>
-			<key action="ы" code="1"/>
-			<key action="в" code="2"/>
-			<key action="а" code="3"/>
-			<key action="р" code="4"/>
-			<key action="п" code="5"/>
-			<key action="я" code="6"/>
-			<key action="ч" code="7"/>
-			<key action="с" code="8"/>
-			<key action="м" code="9"/>
-			<key action="ё" code="10"/>
-			<key action="и" code="11"/>
-			<key action="й" code="12"/>
-			<key action="ц" code="13"/>
-			<key action="14" code="14"/>
-			<key action="к" code="15"/>
-			<key action="19" code="16"/>
-			<key action="е" code="17"/>
+			<key code="0" action="13"/>
+			<key code="1" action="ы"/>
+			<key code="2" action="в"/>
+			<key code="3" action="а"/>
+			<key code="4" action="р"/>
+			<key code="5" action="п"/>
+			<key code="6" action="я"/>
+			<key code="7" action="ч"/>
+			<key code="8" action="с"/>
+			<key code="9" action="м"/>
+			<key code="10" action="ё"/>
+			<key code="11" action="и"/>
+			<key code="12" action="й"/>
+			<key code="13" action="ц"/>
+			<key code="14" action="14"/>
+			<key code="15" action="к"/>
+			<key code="16" action="19"/>
+			<key code="17" action="е"/>
 			<key code="18" output="1"/>
 			<key code="19" output="2"/>
 			<key code="20" output="3"/>
@@ -80,27 +80,27 @@
 			<key code="27" output="-"/>
 			<key code="28" output="8"/>
 			<key code="29" output="0"/>
-			<key action="ъ" code="30"/>
-			<key action="17" code="31"/>
-			<key action="18" code="32"/>
-			<key action="х" code="33"/>
-			<key action="15" code="34"/>
-			<key action="з" code="35"/>
+			<key code="30" action="ъ"/>
+			<key code="31" action="17"/>
+			<key code="32" action="18"/>
+			<key code="33" action="х"/>
+			<key code="34" action="15"/>
+			<key code="35" action="з"/>
 			<key code="36" output="&#x000D;"/>
-			<key action="д" code="37"/>
-			<key action="о" code="38"/>
-			<key action="э" code="39"/>
-			<key action="л" code="40"/>
-			<key action="ж" code="41"/>
+			<key code="37" action="д"/>
+			<key code="38" action="о"/>
+			<key code="39" action="э"/>
+			<key code="40" action="л"/>
+			<key code="41" action="ж"/>
 			<key code="42" output="\"/>
-			<key action="б" code="43"/>
+			<key code="43" action="б"/>
 			<key code="44" output="."/>
-			<key action="16" code="45"/>
-			<key action="ь" code="46"/>
-			<key action="ю" code="47"/>
+			<key code="45" action="16"/>
+			<key code="46" action="ь"/>
+			<key code="47" action="ю"/>
 			<key code="48" output="&#x0009;"/>
-			<key action="5" code="49"/>
-			<key action="ё 1" code="50"/>
+			<key code="49" action="5"/>
+			<key code="50" action="ё 1"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="52" output="&#x0003;"/>
 			<key code="53" output="&#x001B;"/>
@@ -162,24 +162,24 @@
 			<key code="126" output="&#x001E;"/>
 		</keyMap>
 		<keyMap index="1">
-			<key action="6" code="0"/>
-			<key action="Ы" code="1"/>
-			<key action="В" code="2"/>
-			<key action="А" code="3"/>
-			<key action="Р" code="4"/>
-			<key action="П" code="5"/>
-			<key action="Я" code="6"/>
-			<key action="Ч" code="7"/>
-			<key action="С" code="8"/>
-			<key action="М" code="9"/>
-			<key action="Ё" code="10"/>
-			<key action="И" code="11"/>
-			<key action="Й" code="12"/>
-			<key action="Ц" code="13"/>
-			<key action="7" code="14"/>
-			<key action="К" code="15"/>
-			<key action="12" code="16"/>
-			<key action="Е" code="17"/>
+			<key code="0" action="6"/>
+			<key code="1" action="Ы"/>
+			<key code="2" action="В"/>
+			<key code="3" action="А"/>
+			<key code="4" action="Р"/>
+			<key code="5" action="П"/>
+			<key code="6" action="Я"/>
+			<key code="7" action="Ч"/>
+			<key code="8" action="С"/>
+			<key code="9" action="М"/>
+			<key code="10" action="Ё"/>
+			<key code="11" action="И"/>
+			<key code="12" action="Й"/>
+			<key code="13" action="Ц"/>
+			<key code="14" action="7"/>
+			<key code="15" action="К"/>
+			<key code="16" action="12"/>
+			<key code="17" action="Е"/>
 			<key code="18" output="!"/>
 			<key code="19" output="&#x0022;"/>
 			<key code="20" output="№"/>
@@ -192,27 +192,27 @@
 			<key code="27" output="_"/>
 			<key code="28" output="*"/>
 			<key code="29" output=")"/>
-			<key action="Ъ" code="30"/>
-			<key action="10" code="31"/>
-			<key action="11" code="32"/>
-			<key action="Х" code="33"/>
-			<key action="8" code="34"/>
-			<key action="З" code="35"/>
+			<key code="30" action="Ъ"/>
+			<key code="31" action="10"/>
+			<key code="32" action="11"/>
+			<key code="33" action="Х"/>
+			<key code="34" action="8"/>
+			<key code="35" action="З"/>
 			<key code="36" output="&#x000D;"/>
-			<key action="Д" code="37"/>
-			<key action="О" code="38"/>
-			<key action="Э" code="39"/>
-			<key action="Л" code="40"/>
-			<key action="Ж" code="41"/>
+			<key code="37" action="Д"/>
+			<key code="38" action="О"/>
+			<key code="39" action="Э"/>
+			<key code="40" action="Л"/>
+			<key code="41" action="Ж"/>
 			<key code="42" output="/"/>
-			<key action="Б" code="43"/>
+			<key code="43" action="Б"/>
 			<key code="44" output=","/>
-			<key action="9" code="45"/>
-			<key action="Ь" code="46"/>
-			<key action="Ю" code="47"/>
+			<key code="45" action="9"/>
+			<key code="46" action="Ь"/>
+			<key code="47" action="Ю"/>
 			<key code="48" output="&#x0009;"/>
-			<key action="5" code="49"/>
-			<key action="Ё 1" code="50"/>
+			<key code="49" action="5"/>
+			<key code="50" action="Ё 1"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="52" output="&#x0003;"/>
 			<key code="53" output="&#x001B;"/>
@@ -274,24 +274,24 @@
 			<key code="126" output="&#x001E;"/>
 		</keyMap>
 		<keyMap index="2">
-			<key action="6" code="0"/>
-			<key action="Ы" code="1"/>
-			<key action="В" code="2"/>
-			<key action="А" code="3"/>
-			<key action="Р" code="4"/>
-			<key action="П" code="5"/>
-			<key action="Я" code="6"/>
-			<key action="Ч" code="7"/>
-			<key action="С" code="8"/>
-			<key action="М" code="9"/>
-			<key action="Ё" code="10"/>
-			<key action="И" code="11"/>
-			<key action="Й" code="12"/>
-			<key action="Ц" code="13"/>
-			<key action="7" code="14"/>
-			<key action="К" code="15"/>
-			<key action="12" code="16"/>
-			<key action="Е" code="17"/>
+			<key code="0" action="6"/>
+			<key code="1" action="Ы"/>
+			<key code="2" action="В"/>
+			<key code="3" action="А"/>
+			<key code="4" action="Р"/>
+			<key code="5" action="П"/>
+			<key code="6" action="Я"/>
+			<key code="7" action="Ч"/>
+			<key code="8" action="С"/>
+			<key code="9" action="М"/>
+			<key code="10" action="Ё"/>
+			<key code="11" action="И"/>
+			<key code="12" action="Й"/>
+			<key code="13" action="Ц"/>
+			<key code="14" action="7"/>
+			<key code="15" action="К"/>
+			<key code="16" action="12"/>
+			<key code="17" action="Е"/>
 			<key code="18" output="1"/>
 			<key code="19" output="2"/>
 			<key code="20" output="3"/>
@@ -304,26 +304,26 @@
 			<key code="27" output="-"/>
 			<key code="28" output="8"/>
 			<key code="29" output="0"/>
-			<key action="Ъ" code="30"/>
-			<key action="10" code="31"/>
-			<key action="11" code="32"/>
-			<key action="Х" code="33"/>
-			<key action="8" code="34"/>
-			<key action="З" code="35"/>
+			<key code="30" action="Ъ"/>
+			<key code="31" action="10"/>
+			<key code="32" action="11"/>
+			<key code="33" action="Х"/>
+			<key code="34" action="8"/>
+			<key code="35" action="З"/>
 			<key code="36" output="&#x000D;"/>
-			<key action="Д" code="37"/>
-			<key action="О" code="38"/>
-			<key action="Э" code="39"/>
-			<key action="Л" code="40"/>
-			<key action="Ж" code="41"/>
+			<key code="37" action="Д"/>
+			<key code="38" action="О"/>
+			<key code="39" action="Э"/>
+			<key code="40" action="Л"/>
+			<key code="41" action="Ж"/>
 			<key code="42" output="\"/>
-			<key action="Б" code="43"/>
+			<key code="43" action="Б"/>
 			<key code="44" output="."/>
-			<key action="9" code="45"/>
-			<key action="Ь" code="46"/>
-			<key action="Ю" code="47"/>
+			<key code="45" action="9"/>
+			<key code="46" action="Ь"/>
+			<key code="47" action="Ю"/>
 			<key code="48" output="&#x0009;"/>
-			<key action="5" code="49"/>
+			<key code="49" action="5"/>
 			<key code="50" output="Ё"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="52" output="&#x0003;"/>
@@ -402,7 +402,7 @@
 			<key code="13" output=""/>
 			<key code="14" output="€"/>
 			<key code="15" output="®"/>
-			<key action="ѣ" code="16"/>
+			<key code="16" action="ѣ"/>
 			<key code="17" output="™"/>
 			<key code="18" output="¹"/>
 			<key code="19" output="²"/>
@@ -417,10 +417,10 @@
 			<key code="28" output="∞"/>
 			<key code="29" output="→"/>
 			<key code="30" output="ъ"/>
-			<key action="ѳ" code="31"/>
-			<key action="ѵ" code="32"/>
+			<key code="31" action="ѳ"/>
+			<key code="32" action="ѵ"/>
 			<key code="33" output="["/>
-			<key action="і" code="34"/>
+			<key code="34" action="і"/>
 			<key code="35" output="´"/>
 			<key code="36" output="&#x000D;"/>
 			<key code="37" output="”"/>
@@ -436,7 +436,7 @@
 			<key code="47" output="»"/>
 			<key code="48" output="&#x0009;"/>
 			<key code="49" output=" "/>
-			<key code="50" output="´"/>
+			<key code="50" output="ё"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="52" output="&#x0003;"/>
 			<key code="53" output="&#x001B;"/>
@@ -504,23 +504,23 @@
 			<key code="3" output=""/>
 			<key code="4" output=""/>
 			<key code="5" output=""/>
-			<key action="cedilla" code="6"/>
+			<key code="6" action="cedilla"/>
 			<key code="7" output="·"/>
 			<key code="8" output="¢"/>
-			<key action=" 2" code="9"/>
-			<key action="±" code="10"/>
+			<key code="9" action=" 2"/>
+			<key code="10" action="±"/>
 			<key code="11" output="ẞ"/>
-			<key action="" code="12"/>
+			<key code="12" action=""/>
 			<key code="13" output=""/>
 			<key code="14" output=""/>
-			<key action="ring" code="15"/>
-			<key action="Ѣ" code="16"/>
+			<key code="15" action="ring"/>
+			<key code="16" action="Ѣ"/>
 			<key code="17" output=""/>
 			<key code="18" output="¡"/>
 			<key code="19" output="¹⁄₂"/>
 			<key code="20" output="¹⁄₃"/>
 			<key code="21" output="¹⁄₄"/>
-			<key action=" 3" code="22"/>
+			<key code="22" action=" 3"/>
 			<key code="23" output=""/>
 			<key code="24" output="±"/>
 			<key code="25" output="〈"/>
@@ -529,26 +529,26 @@
 			<key code="28" output=""/>
 			<key code="29" output="〉"/>
 			<key code="30" output="Ъ"/>
-			<key action="Ѳ" code="31"/>
-			<key action="Ѵ" code="32"/>
+			<key code="31" action="Ѳ"/>
+			<key code="32" action="Ѵ"/>
 			<key code="33" output="{"/>
-			<key action="І" code="34"/>
+			<key code="34" action="І"/>
 			<key code="35" output="˝"/>
 			<key code="36" output="&#x000D;"/>
 			<key code="37" output="’"/>
 			<key code="38" output=""/>
-			<key action=" 1" code="39"/>
+			<key code="39" action=" 1"/>
 			<key code="40" output="‘"/>
-			<key action="ˆ" code="41"/>
+			<key code="41" action="ˆ"/>
 			<key code="42" output=""/>
 			<key code="43" output="„"/>
-			<key action="⁄" code="44"/>
-			<key action=" 5" code="45"/>
+			<key code="44" action="⁄"/>
+			<key code="45" action=" 5"/>
 			<key code="46" output="•"/>
 			<key code="47" output="“"/>
 			<key code="48" output="&#x0009;"/>
 			<key code="49" output=" "/>
-			<key action="`" code="50"/>
+			<key code="50" action="` 1"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="52" output="&#x0003;"/>
 			<key code="53" output="&#x001B;"/>
@@ -883,7 +883,7 @@
 			<key code="46" output="&#x000D;"/>
 			<key code="47" output="."/>
 			<key code="48" output="&#x0009;"/>
-			<key action="5" code="49"/>
+			<key code="49" action="5"/>
 			<key code="50" output="`"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="52" output="&#x0003;"/>
@@ -1166,7 +1166,7 @@
 		</keyMap>
 	</keyMapSet>
 	<keyMapSet id="994">
-		<keyMap baseIndex="0" baseMapSet="16c" index="0">
+		<keyMap index="0" baseMapSet="16c" baseIndex="0">
 			<key code="24" output="^"/>
 			<key code="30" output="["/>
 			<key code="33" output="@"/>
@@ -1175,10 +1175,10 @@
 			<key code="93" output="¥"/>
 			<key code="94" output="_"/>
 			<key code="95" output=","/>
-			<key action="5" code="102"/>
-			<key action="5" code="104"/>
+			<key code="102" action="5"/>
+			<key code="104" action="5"/>
 		</keyMap>
-		<keyMap baseIndex="1" baseMapSet="16c" index="1">
+		<keyMap index="1" baseMapSet="16c" baseIndex="1">
 			<key code="19" output="&#x0022;"/>
 			<key code="22" output="&#x0026;"/>
 			<key code="24" output="~"/>
@@ -1195,10 +1195,10 @@
 			<key code="93" output="|"/>
 			<key code="94" output="_"/>
 			<key code="95" output=","/>
-			<key action="5" code="102"/>
-			<key action="5" code="104"/>
+			<key code="102" action="5"/>
+			<key code="104" action="5"/>
 		</keyMap>
-		<keyMap baseIndex="2" baseMapSet="16c" index="2">
+		<keyMap index="2" baseMapSet="16c" baseIndex="2">
 			<key code="24" output="^"/>
 			<key code="30" output="["/>
 			<key code="33" output="@"/>
@@ -1207,45 +1207,45 @@
 			<key code="93" output="¥"/>
 			<key code="94" output="_"/>
 			<key code="95" output=","/>
-			<key action="5" code="102"/>
-			<key action="5" code="104"/>
+			<key code="102" action="5"/>
+			<key code="104" action="5"/>
 		</keyMap>
-		<keyMap baseIndex="3" baseMapSet="16c" index="3">
+		<keyMap index="3" baseMapSet="16c" baseIndex="3">
 			<key code="93" output="\"/>
-			<key action="1" code="94"/>
+			<key code="94" action="1"/>
 			<key code="95" output=","/>
-			<key action="5" code="102"/>
-			<key action="5" code="104"/>
+			<key code="102" action="5"/>
+			<key code="104" action="5"/>
 		</keyMap>
-		<keyMap baseIndex="4" baseMapSet="16c" index="4">
+		<keyMap index="4" baseMapSet="16c" baseIndex="4">
 			<key code="93" output="|"/>
 			<key code="94" output="`"/>
 			<key code="95" output=","/>
-			<key action="5" code="102"/>
-			<key action="5" code="104"/>
+			<key code="102" action="5"/>
+			<key code="104" action="5"/>
 		</keyMap>
-		<keyMap baseIndex="5" baseMapSet="16c" index="5">
+		<keyMap index="5" baseMapSet="16c" baseIndex="5">
 			<key code="93" output="\"/>
 			<key code="94" output="`"/>
 			<key code="95" output=","/>
-			<key action="5" code="102"/>
-			<key action="5" code="104"/>
+			<key code="102" action="5"/>
+			<key code="104" action="5"/>
 		</keyMap>
-		<keyMap baseIndex="6" baseMapSet="16c" index="6">
+		<keyMap index="6" baseMapSet="16c" baseIndex="6">
 			<key code="93" output="\"/>
 			<key code="94" output="_"/>
 			<key code="95" output=","/>
-			<key action="5" code="102"/>
-			<key action="5" code="104"/>
+			<key code="102" action="5"/>
+			<key code="104" action="5"/>
 		</keyMap>
-		<keyMap baseIndex="7" baseMapSet="16c" index="7">
+		<keyMap index="7" baseMapSet="16c" baseIndex="7">
 			<key code="93" output="|"/>
 			<key code="94" output="_"/>
 			<key code="95" output=","/>
-			<key action="5" code="102"/>
-			<key action="5" code="104"/>
+			<key code="102" action="5"/>
+			<key code="104" action="5"/>
 		</keyMap>
-		<keyMap baseIndex="8" baseMapSet="16c" index="8">
+		<keyMap index="8" baseMapSet="16c" baseIndex="8">
 			<key code="0" output="a"/>
 			<key code="1" output="s"/>
 			<key code="2" output="d"/>
@@ -1273,361 +1273,365 @@
 			<key code="45" output="n"/>
 			<key code="46" output="m"/>
 		</keyMap>
-		<keyMap baseIndex="9" baseMapSet="16c" index="9">
+		<keyMap index="9" baseMapSet="16c" baseIndex="9">
 			<key code="512" output=""/>
 		</keyMap>
 	</keyMapSet>
 	<actions>
 		<action id="">
-			<when next="breve" state="none"/>
-			<when output="̆" state="breve"/>
+			<when state="none" next="breve"/>
+			<when state="breve" output="̆"/>
 		</action>
 		<action id=" 1">
-			<when output="Э" state="none"/>
+			<when state="none" output="Э"/>
 		</action>
 		<action id=" 2">
-			<when next="caron" state="none"/>
-			<when output="̌" state="caron"/>
+			<when state="none" next="caron"/>
+			<when state="caron" output="̌"/>
 		</action>
 		<action id=" 3">
-			<when next="circumflex" state="none"/>
-			<when output="̂" state="circumflex"/>
+			<when state="none" next="circumflex"/>
+			<when state="circumflex" output="̂"/>
 		</action>
 		<action id=" 5">
-			<when next="tilde" state="none"/>
-			<when output="̃" state="tilde"/>
+			<when state="none" next="tilde"/>
+			<when state="tilde" output="̃"/>
 		</action>
 		<action id="1">
-			<when next="grave" state="none"/>
+			<when state="none" next="grave"/>
 		</action>
 		<action id="10">
-			<when output="Щ" state="none"/>
+			<when state="none" output="Щ"/>
 		</action>
 		<action id="11">
-			<when output="Г" state="none"/>
-			<when output="Ѓ" state="acute"/>
+			<when state="none" output="Г"/>
+			<when state="acute" output="Ѓ"/>
 		</action>
 		<action id="12">
-			<when output="Н" state="none"/>
+			<when state="none" output="Н"/>
 		</action>
 		<action id="13">
-			<when output="ф" state="none"/>
+			<when state="none" output="ф"/>
 		</action>
 		<action id="14">
-			<when output="у" state="none"/>
-			<when output="ў" state="breve"/>
-			<when output="ÿ" state="diaeresis"/>
+			<when state="none" output="у"/>
+			<when state="breve" output="ў"/>
+			<when state="diaeresis" output="ÿ"/>
 		</action>
 		<action id="15">
-			<when output="ш" state="none"/>
+			<when state="none" output="ш"/>
 		</action>
 		<action id="16">
-			<when output="т" state="none"/>
+			<when state="none" output="т"/>
 		</action>
 		<action id="17">
-			<when output="щ" state="none"/>
+			<when state="none" output="щ"/>
 		</action>
 		<action id="18">
-			<when output="г" state="none"/>
-			<when output="ѓ" state="acute"/>
+			<when state="none" output="г"/>
+			<when state="acute" output="ѓ"/>
 		</action>
 		<action id="19">
-			<when output="н" state="none"/>
+			<when state="none" output="н"/>
 		</action>
 		<action id="5">
-			<when output=" " state="none"/>
-			<when output="´" state="acute"/>
-			<when output="˘" state="breve"/>
-			<when output="ˇ" state="caron"/>
-			<when output="¸" state="cedilla"/>
-			<when output="ˆ" state="circumflex"/>
-			<when output="¨" state="diaeresis"/>
-			<when output="`" state="grave"/>
-			<when output="˚" state="ring"/>
-			<when output="˜" state="tilde"/>
+			<when state="none" output=" "/>
+			<when state="acute" output="´"/>
+			<when state="breve" output="˘"/>
+			<when state="caron" output="ˇ"/>
+			<when state="cedilla" output="¸"/>
+			<when state="circumflex" output="ˆ"/>
+			<when state="diaeresis" output="¨"/>
+			<when state="grave" output="`"/>
+			<when state="ring" output="˚"/>
+			<when state="tilde" output="˜"/>
 		</action>
 		<action id="6">
-			<when output="Ф" state="none"/>
+			<when state="none" output="Ф"/>
 		</action>
 		<action id="7">
-			<when output="У" state="none"/>
-			<when output="Ў" state="breve"/>
-			<when output="Ӱ" state="diaeresis"/>
+			<when state="none" output="У"/>
+			<when state="breve" output="Ў"/>
+			<when state="diaeresis" output="Ӱ"/>
 		</action>
 		<action id="8">
-			<when output="Ш" state="none"/>
+			<when state="none" output="Ш"/>
 		</action>
 		<action id="9">
-			<when output="Т" state="none"/>
+			<when state="none" output="Т"/>
 		</action>
 		<action id="`">
-			<when next="grave" state="none"/>
-			<when output="̀" state="grave"/>
+			<when state="none" next="grave"/>
+			<when state="grave" output="̀"/>
+		</action>
+		<action id="` 1">
+			<when state="none" output="Ё"/>
+			<when state="grave" output="̀"/>
 		</action>
 		<action id="cedilla">
-			<when next="cedilla" state="none"/>
-			<when output="̧" state="cedilla"/>
+			<when state="none" next="cedilla"/>
+			<when state="cedilla" output="̧"/>
 		</action>
 		<action id="ring">
-			<when next="ring" state="none"/>
-			<when output="̊" state="ring"/>
+			<when state="none" next="ring"/>
+			<when state="ring" output="̊"/>
 		</action>
 		<action id="±">
-			<when next="grave" state="none"/>
-			<when output="̀" state="grave"/>
+			<when state="none" next="grave"/>
+			<when state="grave" output="̀"/>
 		</action>
 		<action id="ˆ">
-			<when next="diaeresis" state="none"/>
-			<when output="̈" state="diaeresis"/>
+			<when state="none" next="diaeresis"/>
+			<when state="diaeresis" output="̈"/>
 		</action>
 		<action id="Ё">
-			<when output="Ё" state="none"/>
-			<when output="Ӗ" state="breve"/>
-			<when output="Ё" state="diaeresis"/>
-			<when output="Ѐ" state="grave"/>
+			<when state="none" output="Ё"/>
+			<when state="breve" output="Ӗ"/>
+			<when state="diaeresis" output="Ё"/>
+			<when state="grave" output="Ѐ"/>
 		</action>
 		<action id="Ё 1">
-			<when output="Ё" state="none"/>
-			<when output="Ѐ" state="grave"/>
+			<when state="none" output="Ґ"/>
+			<when state="grave" output="Ѐ"/>
 		</action>
 		<action id="І">
-			<when output="І" state="none"/>
-			<when output="Ї" state="diaeresis"/>
+			<when state="none" output="І"/>
+			<when state="diaeresis" output="Ї"/>
 		</action>
 		<action id="А">
-			<when output="А" state="none"/>
-			<when output="Ӑ" state="breve"/>
-			<when output="Ӓ" state="diaeresis"/>
+			<when state="none" output="А"/>
+			<when state="breve" output="Ӑ"/>
+			<when state="diaeresis" output="Ӓ"/>
 		</action>
 		<action id="Б">
-			<when output="Б" state="none"/>
+			<when state="none" output="Б"/>
 		</action>
 		<action id="В">
-			<when output="В" state="none"/>
+			<when state="none" output="В"/>
 		</action>
 		<action id="Д">
-			<when output="Д" state="none"/>
+			<when state="none" output="Д"/>
 		</action>
 		<action id="Е">
-			<when output="Е" state="none"/>
-			<when output="Ӗ" state="breve"/>
-			<when output="Ё" state="diaeresis"/>
-			<when output="Ѐ" state="grave"/>
+			<when state="none" output="Е"/>
+			<when state="breve" output="Ӗ"/>
+			<when state="diaeresis" output="Ё"/>
+			<when state="grave" output="Ѐ"/>
 		</action>
 		<action id="Ж">
-			<when output="Ж" state="none"/>
-			<when output="Ӂ" state="breve"/>
-			<when output="Ӝ" state="diaeresis"/>
+			<when state="none" output="Ж"/>
+			<when state="breve" output="Ӂ"/>
+			<when state="diaeresis" output="Ӝ"/>
 		</action>
 		<action id="З">
-			<when output="З" state="none"/>
-			<when output="Ӟ" state="diaeresis"/>
+			<when state="none" output="З"/>
+			<when state="diaeresis" output="Ӟ"/>
 		</action>
 		<action id="И">
-			<when output="И" state="none"/>
-			<when output="Й" state="breve"/>
-			<when output="Ӥ" state="diaeresis"/>
-			<when output="Ѝ" state="grave"/>
+			<when state="none" output="И"/>
+			<when state="breve" output="Й"/>
+			<when state="diaeresis" output="Ӥ"/>
+			<when state="grave" output="Ѝ"/>
 		</action>
 		<action id="Й">
-			<when output="Й" state="none"/>
-			<when output="Й" state="breve"/>
-			<when output="Ӥ" state="diaeresis"/>
-			<when output="Ѝ" state="grave"/>
+			<when state="none" output="Й"/>
+			<when state="breve" output="Й"/>
+			<when state="diaeresis" output="Ӥ"/>
+			<when state="grave" output="Ѝ"/>
 		</action>
 		<action id="К">
-			<when output="К" state="none"/>
-			<when output="Ќ" state="acute"/>
+			<when state="none" output="К"/>
+			<when state="acute" output="Ќ"/>
 		</action>
 		<action id="Л">
-			<when output="Л" state="none"/>
+			<when state="none" output="Л"/>
 		</action>
 		<action id="М">
-			<when output="М" state="none"/>
+			<when state="none" output="М"/>
 		</action>
 		<action id="О">
-			<when output="О" state="none"/>
-			<when output="Ӧ" state="diaeresis"/>
+			<when state="none" output="О"/>
+			<when state="diaeresis" output="Ӧ"/>
 		</action>
 		<action id="П">
-			<when output="П" state="none"/>
+			<when state="none" output="П"/>
 		</action>
 		<action id="Р">
-			<when output="Р" state="none"/>
+			<when state="none" output="Р"/>
 		</action>
 		<action id="С">
-			<when output="С" state="none"/>
+			<when state="none" output="С"/>
 		</action>
 		<action id="Х">
-			<when output="Х" state="none"/>
+			<when state="none" output="Х"/>
 		</action>
 		<action id="Ц">
-			<when output="Ц" state="none"/>
+			<when state="none" output="Ц"/>
 		</action>
 		<action id="Ч">
-			<when output="Ч" state="none"/>
-			<when output="Ӵ" state="diaeresis"/>
+			<when state="none" output="Ч"/>
+			<when state="diaeresis" output="Ӵ"/>
 		</action>
 		<action id="Ъ">
-			<when output="Ї" state="none"/>
+			<when state="none" output="Ї"/>
 		</action>
 		<action id="Ы">
-			<when output="І" state="none"/>
-			<when output="Ӹ" state="diaeresis"/>
+			<when state="none" output="І"/>
+			<when state="diaeresis" output="Ӹ"/>
 		</action>
 		<action id="Ь">
-			<when output="Ь" state="none"/>
+			<when state="none" output="Ь"/>
 		</action>
 		<action id="Э">
-			<when output="Є" state="none"/>
-			<when output="Ӭ" state="diaeresis"/>
+			<when state="none" output="Є"/>
+			<when state="diaeresis" output="Ӭ"/>
 		</action>
 		<action id="Ю">
-			<when output="Ю" state="none"/>
+			<when state="none" output="Ю"/>
 		</action>
 		<action id="Я">
-			<when output="Я" state="none"/>
+			<when state="none" output="Я"/>
 		</action>
 		<action id="а">
-			<when output="а" state="none"/>
-			<when output="ӑ" state="breve"/>
-			<when output="ӓ" state="diaeresis"/>
+			<when state="none" output="а"/>
+			<when state="breve" output="ӑ"/>
+			<when state="diaeresis" output="ӓ"/>
 		</action>
 		<action id="б">
-			<when output="б" state="none"/>
+			<when state="none" output="б"/>
 		</action>
 		<action id="в">
-			<when output="в" state="none"/>
+			<when state="none" output="в"/>
 		</action>
 		<action id="д">
-			<when output="д" state="none"/>
+			<when state="none" output="д"/>
 		</action>
 		<action id="е">
-			<when output="е" state="none"/>
-			<when output="ӗ" state="breve"/>
-			<when output="ё" state="diaeresis"/>
-			<when output="ѐ" state="grave"/>
+			<when state="none" output="е"/>
+			<when state="breve" output="ӗ"/>
+			<when state="diaeresis" output="ё"/>
+			<when state="grave" output="ѐ"/>
 		</action>
 		<action id="ж">
-			<when output="ж" state="none"/>
-			<when output="ӂ" state="breve"/>
-			<when output="ӝ" state="diaeresis"/>
+			<when state="none" output="ж"/>
+			<when state="breve" output="ӂ"/>
+			<when state="diaeresis" output="ӝ"/>
 		</action>
 		<action id="з">
-			<when output="з" state="none"/>
-			<when output="ӟ" state="diaeresis"/>
+			<when state="none" output="з"/>
+			<when state="diaeresis" output="ӟ"/>
 		</action>
 		<action id="и">
-			<when output="и" state="none"/>
-			<when output="й" state="breve"/>
-			<when output="ӥ" state="diaeresis"/>
-			<when output="ѝ" state="grave"/>
+			<when state="none" output="и"/>
+			<when state="breve" output="й"/>
+			<when state="diaeresis" output="ӥ"/>
+			<when state="grave" output="ѝ"/>
 		</action>
 		<action id="й">
-			<when output="й" state="none"/>
-			<when output="й" state="breve"/>
-			<when output="ӥ" state="diaeresis"/>
-			<when output="ѝ" state="grave"/>
+			<when state="none" output="й"/>
+			<when state="breve" output="й"/>
+			<when state="diaeresis" output="ӥ"/>
+			<when state="grave" output="ѝ"/>
 		</action>
 		<action id="к">
-			<when output="к" state="none"/>
-			<when output="ќ" state="acute"/>
+			<when state="none" output="к"/>
+			<when state="acute" output="ќ"/>
 		</action>
 		<action id="л">
-			<when output="л" state="none"/>
+			<when state="none" output="л"/>
 		</action>
 		<action id="м">
-			<when output="м" state="none"/>
+			<when state="none" output="м"/>
 		</action>
 		<action id="о">
-			<when output="о" state="none"/>
-			<when output="ӧ" state="diaeresis"/>
+			<when state="none" output="о"/>
+			<when state="diaeresis" output="ӧ"/>
 		</action>
 		<action id="п">
-			<when output="п" state="none"/>
+			<when state="none" output="п"/>
 		</action>
 		<action id="р">
-			<when output="р" state="none"/>
+			<when state="none" output="р"/>
 		</action>
 		<action id="с">
-			<when output="с" state="none"/>
+			<when state="none" output="с"/>
 		</action>
 		<action id="х">
-			<when output="х" state="none"/>
+			<when state="none" output="х"/>
 		</action>
 		<action id="ц">
-			<when output="ц" state="none"/>
+			<when state="none" output="ц"/>
 		</action>
 		<action id="ч">
-			<when output="ч" state="none"/>
-			<when output="ӵ" state="diaeresis"/>
+			<when state="none" output="ч"/>
+			<when state="diaeresis" output="ӵ"/>
 		</action>
 		<action id="ъ">
-			<when output="ї" state="none"/>
+			<when state="none" output="ї"/>
 		</action>
 		<action id="ы">
-			<when output="і" state="none"/>
-			<when output="ӹ" state="diaeresis"/>
+			<when state="none" output="і"/>
+			<when state="diaeresis" output="ӹ"/>
 		</action>
 		<action id="ь">
-			<when output="ь" state="none"/>
+			<when state="none" output="ь"/>
 		</action>
 		<action id="э">
-			<when output="є" state="none"/>
-			<when output="ӭ" state="diaeresis"/>
+			<when state="none" output="є"/>
+			<when state="diaeresis" output="ӭ"/>
 		</action>
 		<action id="ю">
-			<when output="ю" state="none"/>
+			<when state="none" output="ю"/>
 		</action>
 		<action id="я">
-			<when output="я" state="none"/>
+			<when state="none" output="я"/>
 		</action>
 		<action id="ё">
-			<when output="ё" state="none"/>
-			<when output="ӗ" state="breve"/>
-			<when output="ё" state="diaeresis"/>
-			<when output="ѐ" state="grave"/>
+			<when state="none" output="ё"/>
+			<when state="breve" output="ӗ"/>
+			<when state="diaeresis" output="ё"/>
+			<when state="grave" output="ѐ"/>
 		</action>
 		<action id="ё 1">
-			<when output="ё" state="none"/>
-			<when output="ѐ" state="grave"/>
+			<when state="none" output="ґ"/>
+			<when state="grave" output="ѐ"/>
 		</action>
 		<action id="і">
-			<when output="і" state="none"/>
-			<when output="ï" state="diaeresis"/>
+			<when state="none" output="і"/>
+			<when state="diaeresis" output="ï"/>
 		</action>
 		<action id="Ѣ">
-			<when output="Ѣ" state="none"/>
+			<when state="none" output="Ѣ"/>
 		</action>
 		<action id="ѣ">
-			<when output="ѣ" state="none"/>
+			<when state="none" output="ѣ"/>
 		</action>
 		<action id="Ѳ">
-			<when output="Ѳ" state="none"/>
+			<when state="none" output="Ѳ"/>
 		</action>
 		<action id="ѳ">
-			<when output="ѳ" state="none"/>
+			<when state="none" output="ѳ"/>
 		</action>
 		<action id="Ѵ">
-			<when output="Ґ" state="none"/>
+			<when state="none" output="Ґ"/>
 		</action>
 		<action id="ѵ">
-			<when output="ґ" state="none"/>
+			<when state="none" output="ґ"/>
 		</action>
 		<action id="⁄">
-			<when next="acute" state="none"/>
-			<when output="́" state="acute"/>
+			<when state="none" next="acute"/>
+			<when state="acute" output="́"/>
 		</action>
 	</actions>
 	<terminators>
-		<when output="´" state="acute"/>
-		<when output="˘" state="breve"/>
-		<when output="ˇ" state="caron"/>
-		<when output="¸" state="cedilla"/>
-		<when output="ˆ" state="circumflex"/>
-		<when output="¨" state="diaeresis"/>
-		<when output="`" state="grave"/>
-		<when output="˚" state="ring"/>
-		<when output="˜" state="tilde"/>
+		<when state="acute" output="´"/>
+		<when state="breve" output="˘"/>
+		<when state="caron" output="ˇ"/>
+		<when state="cedilla" output="¸"/>
+		<when state="circumflex" output="ˆ"/>
+		<when state="diaeresis" output="¨"/>
+		<when state="grave" output="`"/>
+		<when state="ring" output="˚"/>
+		<when state="tilde" output="˜"/>
 	</terminators>
 </keyboard>
