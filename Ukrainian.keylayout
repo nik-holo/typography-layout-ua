@@ -1593,7 +1593,7 @@
 			<when state="grave" output="ѐ"/>
 		</action>
 		<action id="ё 1">
-			<when state="none" output="ґ"/>
+			<when state="none" output="ʼ"/>
 			<when state="grave" output="ѐ"/>
 		</action>
 		<action id="і">
