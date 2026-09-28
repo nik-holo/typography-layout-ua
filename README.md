@@ -16,10 +16,11 @@
 
 ```sh
 brew tap nik-holo/typography-layout-ua https://github.com/nik-holo/typography-layout-ua
+brew trust nik-holo/typography-layout-ua
 brew install --cask typography-layout-ua
 ```
 
-Homebrew попросить пароль, бо розкладки ставляться у `/Library/Keyboard Layouts` для всіх користувачів.
+`brew trust` потрібен у Homebrew 7+ для сторонніх tap-ів. Homebrew попросить пароль, бо розкладки ставляться у `/Library/Keyboard Layouts` для всіх користувачів.
 
 ### Через інсталятор
 
