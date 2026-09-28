@@ -2,7 +2,7 @@
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Last edited by Ukelele version 3.0.3.70 on 2016-04-24 at 17:19 (GMT+3)-->
 <!--Created by Ukelele version 1.8 on 2008-10-24 at 13:25 (YEKST)-->
-<keyboard group="126" id="-20914" name="Українська/Русский" maxout="3">
+<keyboard group="126" id="-20915" name="Українська/Русский" maxout="3">
 	<layouts>
 		<layout first="0" last="17" mapSet="16c" modifiers="f4"/>
 		<layout first="18" last="18" mapSet="994" modifiers="f4"/>
@@ -399,7 +399,7 @@
 			<key code="10" output="´"/>
 			<key code="11" output="ß"/>
 			<key code="12" output=""/>
-			<key code="13" output=""/>
+			<key code="13" output="✓"/>
 			<key code="14" output="€"/>
 			<key code="15" output="®"/>
 			<key code="16" action="ѣ"/>
@@ -421,7 +421,7 @@
 			<key code="32" action="ѵ"/>
 			<key code="33" output="["/>
 			<key code="34" action="і"/>
-			<key code="35" output="´"/>
+			<key code="35" output="′"/>
 			<key code="36" output="&#x000D;"/>
 			<key code="37" output="”"/>
 			<key code="38" output="„"/>
@@ -502,7 +502,7 @@
 			<key code="1" output="Ы"/>
 			<key code="2" output="⌀"/>
 			<key code="3" output=""/>
-			<key code="4" output=""/>
+			<key code="4" action="double-acute"/>
 			<key code="5" output=""/>
 			<key code="6" action="cedilla"/>
 			<key code="7" output="·"/>
@@ -511,11 +511,11 @@
 			<key code="10" action="±"/>
 			<key code="11" output="ẞ"/>
 			<key code="12" action=""/>
-			<key code="13" output=""/>
-			<key code="14" output=""/>
+			<key code="13" output="⌃"/>
+			<key code="14" output="⌥"/>
 			<key code="15" action="ring"/>
 			<key code="16" action="Ѣ"/>
-			<key code="17" output=""/>
+			<key code="17" output="#"/>
 			<key code="18" output="¡"/>
 			<key code="19" output="¹⁄₂"/>
 			<key code="20" output="¹⁄₃"/>
@@ -523,17 +523,17 @@
 			<key code="22" action=" 3"/>
 			<key code="23" output=""/>
 			<key code="24" output="±"/>
-			<key code="25" output="〈"/>
+			<key code="25" output="‹"/>
 			<key code="26" output="¿"/>
 			<key code="27" output="–"/>
 			<key code="28" output=""/>
-			<key code="29" output="〉"/>
+			<key code="29" output="›"/>
 			<key code="30" output="Ъ"/>
 			<key code="31" action="Ѳ"/>
 			<key code="32" action="Ѵ"/>
 			<key code="33" output="{"/>
 			<key code="34" action="І"/>
-			<key code="35" output="˝"/>
+			<key code="35" output="″"/>
 			<key code="36" output="&#x000D;"/>
 			<key code="37" output="’"/>
 			<key code="38" output=""/>
@@ -1317,6 +1317,7 @@
 			<when state="none" output="у"/>
 			<when state="breve" output="ў"/>
 			<when state="diaeresis" output="ÿ"/>
+			<when state="double-acute" output="ӳ"/>
 		</action>
 		<action id="15">
 			<when state="none" output="ш"/>
@@ -1345,6 +1346,11 @@
 			<when state="grave" output="`"/>
 			<when state="ring" output="˚"/>
 			<when state="tilde" output="˜"/>
+			<when state="double-acute" output="˝"/>
+		</action>
+		<action id="double-acute">
+			<when state="none" next="double-acute"/>
+			<when state="double-acute" output="̋"/>
 		</action>
 		<action id="6">
 			<when state="none" output="Ф"/>
@@ -1353,6 +1359,7 @@
 			<when state="none" output="У"/>
 			<when state="breve" output="Ў"/>
 			<when state="diaeresis" output="Ӱ"/>
+			<when state="double-acute" output="Ӳ"/>
 		</action>
 		<action id="8">
 			<when state="none" output="Ш"/>
@@ -1630,6 +1637,7 @@
 		<when state="cedilla" output="¸"/>
 		<when state="circumflex" output="ˆ"/>
 		<when state="diaeresis" output="¨"/>
+		<when state="double-acute" output="˝"/>
 		<when state="grave" output="`"/>
 		<when state="ring" output="˚"/>
 		<when state="tilde" output="˜"/>

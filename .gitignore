@@ -1,6 +1,4 @@
-
 *.xml
 
-.idea/typography-layout-ua.iml
-
-.idea/.name
+.idea/
+dist/
