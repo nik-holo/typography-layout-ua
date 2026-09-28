@@ -1,6 +1,6 @@
 cask "typography-layout-ua" do
   version "1.0.0"
-  sha256 "cff2b57d9e2d41688ff6b112a822bc97ff26c3d311c19a0b9017b1982069d188"
+  sha256 "7ba4a70f8cd8ce7ab1114b412eb9c58cbc3272f08108ec82227f665d8925436c"
 
   url "https://github.com/nik-holo/typography-layout-ua/releases/download/v#{version}/typography-layout-ua-#{version}.zip"
   name "Typography Layout UA"
